@@ -3,7 +3,7 @@ package lt.vcd2;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class DateCalculator {
+public class DatosKalkuliatorius {
 
     public static long calculateDaysBetween(
             int year_from,
@@ -20,9 +20,9 @@ public class DateCalculator {
     }
 
     public static void main(String[] args) {
-        long days = calculateDaysBetween(2026, 1, 1, 2026, 1, 12);
+        long days = calculateDaysBetween(2026, 10, 10, 2026, 11, 12);
 
-        System.out.println("Number of days: " + days);
+        System.out.println("Dienu skaicius tarp datu: " + days);
     }
 }
 
